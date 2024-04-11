@@ -1,0 +1,66 @@
+---
+import GithubIcon from "../components/icons/GithubIcon.astro"
+import LinkedinIcon from "../components/icons/LinkedinIcon.astro"
+import InstagramIcon from "../components/icons/InstagramIcon.astro"
+---
+<!--
+
+
+<div class="justify-around max-w-5xl sm:pt-14 sm:mx-10 md:mx-auto">
+    <div class="flex flex-col   justify-around items-center pt-12  sm:flex-row sm:mx-auto">
+        <div class="sm:order-2">
+            <img src="/src/images/fotoperfil.jpg" alt="Porfolio Diego Pitón"    class="h-60 w-64  rounded-xl object-cover  md:h-80 md:w-84 ">
+        </div>
+        <div class="sm:order-1 max-w-72  md:max-w-xl">
+            <h1 class="text-2xl text-gray-300 font-bold pt-9 md:text-6xl">Hi, I'm <span class="text-[#62799D]">Diego Pitón</span></h1>
+            <h2 class="text-xl text-[#49d8a4] font-bold pt-1 md:text-5xl">Developer web</h2>
+            <p class="text-sm text-gray-300 font-light pt-3 md:text-xl">+1 year of experience in   web design and development, focused on providing the client with the best solution</p>
+            <ul class="pt-9 flex space-x-3">
+                <li>
+                    <GithubIcon />
+                </li>
+                <li>
+                    <LinkedinIcon />
+                </li>
+                <li>
+                    <InstagramIcon />
+                </li>
+            </ul>
+        </div>
+    
+    </div>
+</div>
+<div class="sm:order-2 h-60 w-64 lg:h-80 lg:w-84">
+            <img src="/src/images/fotoperfil.jpg" alt="Porfolio Diego Pitón"    class="rounded-xl object-cover   ">
+        </div>
+-->
+<div class="w-full bg-zinc-900 flex justify-center mt-20">
+    <div class="flex  flex-col items-center pt-12 px-4 sm:flex-row sm:justify-around md:w-full md:justify-around lg:max-w-[1128px] ">
+        
+        <img src="/src/images/fotoperfil.jpg" alt="Porfolio Diego Pitón"    class="sm:order-2 h-60 w-64 rounded-xl object-cover sm:w-3/12 lg:h-80 lg:w-84  shadow-xl  ">
+        
+        <div class="w-72  sm:w-7/12 sm:order-1">
+            <h1 class="pt-9 text-2xl font-bold text-gray-300 md:text-4xl lg:text-5xl">Hi, I'm <span class="text-[#62799D]">Diego Pitón</span></h1>
+            <h2 class="pt-1 text-xl font-bold text-[#49d8a4] md:text-2xl lg:text-4xl">Developer web</h2>
+            <p class="pt-3 text-sm text-gray-300 font-light lg:w-full lg:text-base">+1 year of experience in   web design and development, focused on providing the client with the best solution</p>
+            <ul class="pt-9 flex space-x-3">
+                <li>
+                    <a href="https://github.com/DiegoPiton">
+                        <GithubIcon />
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/diego-piton/">
+                        <LinkedinIcon />
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <InstagramIcon />
+                    </a>
+                </li>
+            </ul>
+        </div>
+    
+    </div>
+</div> 

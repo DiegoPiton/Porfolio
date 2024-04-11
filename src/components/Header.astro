@@ -1,0 +1,42 @@
+---
+import MenuIcon from "../components/icons/MenuIcon.astro"
+
+
+---
+<header class="bg-zinc-900 px-7">
+    <div class="flex h-16 max-w-5xl mx-auto justify-between items-center">
+        
+        <a href="" class="text-gray-300 w-12 h-12">
+            <img src="/src/images/stickerblanco.png" alt="logo">
+        </a>
+        <div class="text-gray-300 hidden sm:flex">
+            <a href="#home" class="px-3 py-2 hover:text-cyan-600 transition-colors">HOME</a>
+            <a href="#about" class="px-3 py-2 hover:text-cyan-600 transition-colors">ABOUT</a>
+            <a href="#projects" class="px-3 py-2 hover:text-cyan-600 transition-colors">PROJECTS</a>
+            <a href="#skills" class="px-3 py-2 hover:text-cyan-600 transition-colors">SKILLS</a>
+            <a href="#contact" class="px-3 py-2 hover:text-cyan-600 transition-colors">CONTACT</a>
+        </div>
+        
+        
+
+        <button id="boton" class="text-gray-300 hover:text-cyan-600 transition-colors focus:ring-2 focus:text-cyan-600 sm:hidden">
+            <MenuIcon />
+        </button>
+    </div>
+    <div id="menu" class="bg-zinc-900 text-gray-300 font-sans text-xl space-y-1 border-t pb-3 pt-2 hidden sm:hidden">
+        <a href="#home" class="block px-3 py-2 hover:text-cyan-600 transition-colors">HOME</a>
+        <a href="#about" class="block px-3 py-2 hover:text-cyan-600 transition-colors">ABOUT</a>
+        <a href="#projects" class="block px-3 py-2 hover:text-cyan-600 transition-colors">PROJECTS</a>
+        <a href="#skills" class="block px-3 py-2 hover:text-cyan-600 transition-colors">SKILLS</a>
+        <a href="#contact" class="block px-3 py-2 hover:text-cyan-600 transition-colors">CONTACT</a>
+    </div>
+    
+</header>
+<script>
+    const boton = document.querySelector('#boton');
+const menu = document.querySelector('#menu');
+
+boton?.addEventListener('click',() => {
+    menu?.classList?.toggle('hidden')
+})
+</script>
