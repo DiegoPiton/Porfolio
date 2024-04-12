@@ -1,13 +1,14 @@
 ---
 import MenuIcon from "../components/icons/MenuIcon.astro"
-
+import { Image } from 'astro:assets';
+import StickerBlanco from "../images/stickerblanco.png"
 
 ---
 <header class="bg-zinc-900 px-7">
     <div class="flex h-16 max-w-5xl mx-auto justify-between items-center">
         
         <a href="" class="text-gray-300 w-12 h-12">
-            <img src="/src/images/stickerblanco.png" alt="logo">
+            <Image src={StickerBlanco} alt="logo"/>
         </a>
         <div class="text-gray-300 hidden sm:flex">
             <a href="#home" class="px-3 py-2 hover:text-cyan-600 transition-colors">HOME</a>
