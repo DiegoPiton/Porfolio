@@ -1,8 +1,117 @@
 ---
-
+import LinkIcon from "./icons/LinkIcon.astro"
+import { Image } from 'astro:assets';
+import pnew from "../images/pnew.jpg"
 ---
 <div class="w-full bg-zinc-900 flex flex-col items-center justify-center my-20 ">
-    <div id="projects" class="w-[105px] rounded-xl bg-[#4B5563] flex justify-center ">
+    <div id="projects" class="w-[105px] rounded-xl bg-[#4B5563] flex justify-center">
         <p  class=" text-gray-300 ">Projects</p>
     </div>
+
+    <section>
+
+        <!-- <article class="flex flex-col w-64  h-[400px]  mt-20 bg-[#111827] rounded-xl shadow-2xl border-2 sm:w-[300px] md:w-full md:flex-row md:mx-auto md:justify-around md:items-center md:px-4 lg:justify-between lg:mx-4 lg:max-w-[1024px]">
+
+            <div class=" w-60 h-[100px] lg:w-[554px]  ">
+                <Image src={pnew} alt="imagen ilustrativa de pagina web" class=""/>
+            </div>
+
+            <div class="w-64 lg:w-[554px] h-[280px] flex flex-col gap-5  bg-zinc-900 rounded-xl ">
+
+                <h3 class="text-gray-300">Name Page</h3>
+
+                <p class="text-gray-300 text-balance font-light text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec urna ac tellus volutpat viverra. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.</p>
+
+                <ul class="text-gray-300 flex gap-2">
+                    <li class="w-20 rounded-xl bg-[#4B5563] flex justify-center">Astro</li>
+                    <li class="w-20 rounded-xl bg-[#4B5563] flex justify-center">TailwindCSS</li>
+                    <li class="w-20 rounded-xl bg-[#4B5563] flex justify-center">JavaScript</li>
+                </ul>
+
+                <a href="#">
+                    <LinkIcon />
+                </a>
+
+            </div>
+        </article>-->
+
+        <article class="flex flex-col w-64 mt-20 bg-[#111827] rounded-xl shadow-2xl border-2 md:w-full md:flex-row">
+
+            <div class="w-60 mx-auto my-2 md:w-[300px] flex flex-col  md:my-auto ">
+                <Image src={pnew} alt="imagen ilustrativa de pagina web" class="rounded-xl md:px-3 "/>
+            </div>
+
+            <div class=" flex flex-col gap-5 p-2 bg-zinc-900 rounded-xl my-2 md:w-[400px]">
+
+                <h3 class="text-gray-300">Name Page</h3>
+
+                <p class="text-gray-300 text-balance  text-xs">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec urna ac tellus volutpat viverra. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.</p>
+
+                <ul class="text-gray-300 grid grid-cols-2 gap-2 md:grid-cols-4 md:">
+                    <li class="w-24 rounded-xl bg-[#4B5563] flex justify-center font-light text-sm hover:bg-[#BC52EE] hover:text-white">Astro</li>
+                    <li class="w-24 rounded-xl bg-[#4B5563] flex justify-center font-light text-sm hover:bg-[#06B6D4] hover:text-white">TailwindCSS</li>
+                    <li class="w-24 rounded-xl bg-[#4B5563] flex justify-center font-light text-sm hover:bg-[#F7DF1E] hover:text-white">JavaScript</li>
+                </ul>
+
+                <a href="#">
+                    <LinkIcon />
+                </a>
+
+            </div>
+
+        </article>
+
+        <article class="flex flex-col w-64 mt-20 bg-[#111827] rounded-xl shadow-2xl border-2 md:w-full md:flex-row">
+
+            <div class="w-60 mx-auto my-2 md:w-[300px] flex flex-col  md:my-auto ">
+                <Image src={pnew} alt="imagen ilustrativa de pagina web" class="rounded-xl md:px-3 "/>
+            </div>
+
+            <div class=" flex flex-col gap-5 p-2 bg-zinc-900 rounded-xl my-2 md:w-[400px]">
+
+                <h3 class="text-gray-300">Name Page</h3>
+
+                <p class="text-gray-300 text-balance  text-xs">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec urna ac tellus volutpat viverra. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.</p>
+
+                <ul class="text-gray-300 grid grid-cols-2 gap-2 md:grid-cols-4 md:">
+                    <li class="w-24 rounded-xl bg-[#4B5563] flex justify-center font-light text-sm hover:bg-[#BC52EE] hover:text-white">Astro</li>
+                    <li class="w-24 rounded-xl bg-[#4B5563] flex justify-center font-light text-sm hover:bg-[#06B6D4] hover:text-white">TailwindCSS</li>
+                    <li class="w-24 rounded-xl bg-[#4B5563] flex justify-center font-light text-sm hover:bg-[#F7DF1E] hover:text-white">JavaScript</li>
+                </ul>
+
+                <a href="#">
+                    <LinkIcon />
+                </a>
+
+            </div>
+
+        </article>
+
+        <article class="flex flex-col w-64 mt-20 bg-[#111827] rounded-xl shadow-2xl border-2 md:w-full md:flex-row">
+
+            <div class="w-60 mx-auto my-2 md:w-[300px] flex flex-col  md:my-auto ">
+                <Image src={pnew} alt="imagen ilustrativa de pagina web" class="rounded-xl md:px-3 "/>
+            </div>
+
+            <div class=" flex flex-col gap-5 p-2 bg-zinc-900 rounded-xl md:w-[400px] my-2">
+
+                <h3 class="text-gray-300">Name Page</h3>
+
+                <p class="text-gray-300 text-balance  text-xs">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec urna ac tellus volutpat viverra. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.</p>
+
+                <ul class="text-gray-300 grid grid-cols-2 gap-2 md:grid-cols-4 md:">
+                    <li class="w-24 rounded-xl bg-[#4B5563] flex justify-center font-light text-sm hover:bg-[#BC52EE] hover:text-white">Astro</li>
+                    <li class="w-24 rounded-xl bg-[#4B5563] flex justify-center font-light text-sm hover:bg-[#06B6D4] hover:text-white ">TailwindCSS</li>
+                    <li class="w-24 rounded-xl bg-[#4B5563] flex justify-center font-light text-sm hover:bg-[#F7DF1E] hover:text-white ">JavaScript</li>
+                </ul>
+
+                <a href="#">
+                    <LinkIcon />
+                </a>
+
+            </div>
+
+        </article>
+
+    </section>
 </div>
